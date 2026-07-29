@@ -14,3 +14,15 @@ for i in range (1, rows +1):
         print(number, end=" ")
         number += 1
     print()
+
+rowsize = int(input("enter the number of rows"))
+if rowsize%2==0:
+    halfdiamRow = int(rowSize/2)
+else:
+    halfdiamRow = int(rowSize/2)+1
+space = halfdiamRow - 1
+
+for i in range(1, halfdiamRow+1):
+    for j in range(1,space+1):
+        print(end=" ")
+    space - 1
