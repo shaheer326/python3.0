@@ -17,9 +17,9 @@ for i in range (1, rows +1):
 
 rowsize = int(input("enter the number of rows"))
 if rowsize%2==0:
-    halfdiamRow = int(rowSize/2)
+    halfdiamRow = int(rowsize/2)
 else:
-    halfdiamRow = int(rowSize/2)+1
+    halfdiamRow = int(rowsize/2)+1
 space = halfdiamRow - 1
 
 for i in range(1, halfdiamRow+1):
